@@ -13,4 +13,4 @@ jobs:
         run: |
           curl -s -X POST https://api.telegram.org/bot${{ secrets.BOT_TOKEN }}/sendMessage \
           -d chat_id=${{ secrets.CHAT_ID }} \
-          -d text="周六快乐 🎉 接下来是新一周的收录"
+          -d text="---周六快乐 🎉 接下来是新一周的收录---"
